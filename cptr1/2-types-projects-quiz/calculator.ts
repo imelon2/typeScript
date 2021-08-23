@@ -19,7 +19,7 @@
                 return a % b;
 
              default:
-                 throw Error("erroe!!");
+                 throw new Error("erroe!!");
         }
     }
 
