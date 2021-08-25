@@ -9,7 +9,7 @@
   const num: number = -6;
 
   // string
-  const str: string = 'hello';
+  const str: string = "hello";
 
   // boolean
   const boal: boolean = false;
@@ -29,17 +29,17 @@
 
   // unknown 💩
   let notSure: unknown = 0;
-  notSure = 'he';
+  notSure = "he";
   notSure = true;
 
   // any 💩
   let anything: any = 0;
-  anything = 'hello';
+  anything = "hello";
 
   // void
   function print(): void {
-    console.log('hello');
-   // return;
+    console.log("hello");
+    // return;
   }
   let unusable: void = undefined; // 💩
 
@@ -54,6 +54,10 @@
   // objet
   let obj: object; // 💩
   function acceptSomeObject(obj: object) {}
-  acceptSomeObject({ name: 'ellie' });
-  acceptSomeObject({ animal: 'dog' });
+  acceptSomeObject({ name: "ellie" });
+  acceptSomeObject({ animal: "dog" });
+  let obj1: object = {};
+  let arr: object = [];
+  let func: object = function () {};
+  let date: object = new Date();
 }
