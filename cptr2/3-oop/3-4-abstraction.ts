@@ -80,7 +80,7 @@
       this.machine.fillCoffeeBeans(45);
       this.machine.clean();
     }
-  }
+  }``
 
   const maker: CoffeeMachine = CoffeeMachine.makeMachine(32);
   const amateur = new AmateurUser(maker);
