@@ -98,4 +98,6 @@
     console.log('-------------------------');
     machine.makeCoffee(1);
   });
+
+  const test1 = concat('hi', 'bye');
 }
